@@ -14,7 +14,7 @@ class productprovider extends ChangeNotifier{
     {
       await  productservices.productdata();
       notifyListeners();
-      if(product.hashCode.isEven){
+    //  if(product.hashCode.isEven){
 
       }
 
